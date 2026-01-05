@@ -11,7 +11,11 @@ Interactive 3D weather visualization prototype built for the **Computer Graphics
 ## 🎥 Demo Video
 
 [![Demostration Video](https://raw.githubusercontent.com/samu31nd/weatherLandscape3D/main/path/media/demo.jpg)](https://raw.githubusercontent.com/samu31nd/weatherLandscape3D/main/media/demo.mp4)
-https://github.com/samu31nd/weatherLandscape3D/blob/main/media/demo.mp4
+
+## 📄 Documentation of the project
+
+- 📖 [View the report online (PDF)](docs/ProyectoFinalDocumentacion.pdf)
+- ⬇️ [Download the report](https://github.com/samu31nd/weatherLandscape3D/raw/main/docs/ProyectoFinalDocumentacion.pdf)
 
 ---
 
