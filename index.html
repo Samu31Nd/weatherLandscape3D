@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visor de Objetos 3D</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fixed top-10 left-10 z-10 font-sans text-white space-y-4 select-none">
+
+        <div class="space-y-1">
+            <h1 class="text-3xl font-semibold tracking-wide">
+                CLIMA
+            </h1>
+            <h3 class="text-sm text-white/70 tracking-wide">
+                CDMX, Álvaro Obregón
+            </h3>
+        </div>
+
+        <ul class="space-y-2 text-sm text-white/85">
+            <li>02/01/2026 — Soleado · 0% precipitación</li>
+            <li>03/01/2026 — Nublado · 30% precipitación</li>
+            <li>04/01/2026 — Nublado · 30% precipitación</li>
+            <li>05/01/2026 — Nublado · 30% precipitación</li>
+            <li class="text-blue-300">06/01/2026 — Lluvioso · 80% precipitación</li>
+        </ul>
+
+    </div>
+
+    <footer
+        class="fixed bottom-4 left-1/2 -translate-x-1/2 text-center text-xs text-white/40 font-sans leading-relaxed select-none">
+        Creado por Eduardo Samuel Sánchez Leyva · Computer Graphics<br>
+        Instituto Politécnico Nacional · ESCOM — Todos los derechos reservados
+    </footer>
+
+    <!-- Importamos Three.js y sus módulos.
+    Esto se conoce como import map, y le dice al navegador dónde encontrar los archivos. -->
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+            "three/examples/jsm/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+    }
+    </script>
+
+    <!-- Importamos nuestro script principal. Es importante que sea de tipo "module" -->
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
